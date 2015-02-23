@@ -15,7 +15,7 @@ mup deployment script
 #### Deploy starlink application to starlink.io server
     mup deploy
 
-#### other mup commands
+#### Other mup commands
     mup reconfig
     mup logs -f
     mup start
