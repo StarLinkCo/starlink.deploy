@@ -1,9 +1,13 @@
 # starlink.deploy
 mup deployment script
 
-#### SSH to starlink.io server
-    chmod 400 StarLink.pem
-    ssh -i StarLink.pem ubuntu@starlink.io
+#### Install mup:
+    // https://github.com/arunoda/meteor-up
+    npm install -g mup
+
+#### Change app location in mup.json accordingly:
+      // Location of app (local directory)
+    "app": "~/starlink",
 
 #### Setup Meteor on starlink.io server
     mup setup
@@ -17,3 +21,8 @@ mup deployment script
     mup start
     mup stop
     mup restart
+
+#### SSH to starlink.io server
+    chmod 400 StarLink.pem
+    ssh -i StarLink.pem ubuntu@starlink.io
+
