@@ -7,7 +7,7 @@ mup deployment script
 
 #### Change app location in mup.json accordingly:
       // Location of app (local directory)
-    "app": "~/starlink",
+    "app": "../starlink",
 
 #### Setup Meteor on starlink.io server
     mup setup
