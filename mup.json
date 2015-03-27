@@ -21,7 +21,7 @@
   "nodeVersion": "0.10.36",
 
   // Install PhantomJS in the server
-  "setupPhantom": false,
+  "setupPhantom": true,
 
   // Application name (No spaces)
   "appName": "starlink",
